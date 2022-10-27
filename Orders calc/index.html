@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Donuts Orders</title>
+</head>
+<body>
+	<div id="frame">
+  		<form name="orderform" action="donuts.php" method="POST">
+ 			<div class="field">
+ 			Caked: <input id="cakedonuts" name="" value=""/>
+ 			</div>
+ 			<div class="field">
+ 			Glazed: <input id="glazeddonuts" name="glazeddonuts" value=""/>
+ 			</div>
+ 			<div class="field">
+ 			Total: <input id="total" value=""/>
+ 			</div>
+ 			<div class="field">
+ 			<input type="button" id="calc" value="Calculate" onclick="calculation()"/>
+ 			<input type="button" id="clear" value="Clear" onclick="Clear()"/>
+ 			</div>
+
+ 		</form>
+ 	</div>
+
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>

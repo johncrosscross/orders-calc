@@ -1,0 +1,71 @@
+
+html, body {
+	height: 100%;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: lightgray;
+}
+
+
+.field {
+	margin-top: 20px;
+	margin-left: 20px;	
+	font-family: Andale Mono, monospace;
+	font-size: 26px;
+	color: black;
+
+}
+
+#calc, #clear {
+	position: relative;
+	margin-top: 70px;
+	background-color: lightgreen;
+	font-size: 18px;
+	font-family: Andale Mono, monospace;
+	border-width: 0.5px;
+	border-radius: 7px;
+	box-shadow: 1px 1px 8px 1px;
+}
+
+#clear {
+	background-color: lightblue;
+}
+
+
+#cakedonuts, #glazeddonuts {
+	position: relative;
+	border: none;
+	height: 28px;
+	width: 100px;
+	border-radius: 5px;
+	font-size: 18px;
+	float: right;
+	margin-right: 300px;
+}
+
+#total {
+	position: relative;
+	margin-top: 0.5px;
+	width: 200px;
+	height: 30px;
+	font-size: 18px;
+	color: blue;
+	border: none;
+	border-radius: 5px;
+	float: right;
+	margin-right: 200px;
+
+}
+
+form {
+	width: 550px;
+	height: 350px;
+	border: solid lightgray; 0.5px;
+	border-radius: 10px;
+	box-shadow: 20px 20px 35px 1px;
+}
+
